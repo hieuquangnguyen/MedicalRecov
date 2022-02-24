@@ -1,0 +1,942 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    font-family: 'Montserrat';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 2000px;
+}
+
+.container .header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: rgba(250, 250, 250, 1);
+}
+
+/* top header */
+.header .header-top{
+    /* background-color: royalblue; */
+    background-color: #f3dbbb;
+    height: 70px;
+    line-height: 60px;
+    
+    /* vi tri */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: -200px;
+    
+}
+
+.header .name-company{
+    margin-right: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 60px;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 3px;
+    /* margin-left: 33px; */
+   
+    /* css thêm */
+   margin-left: 45px;
+}
+.header .menu{
+    width: auto;
+    margin-right: 150px;
+    position: relative;
+    top:10%;
+
+    display: flex;
+    
+}
+.header .menu li{
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;  
+    
+}
+.header .menu li a{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.header .menu li a:hover{
+    color: red;
+}
+
+.btn-join-us{
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    left: 260px;
+}
+
+.header-top .btn-join-us p{
+    margin-right: 30px;
+    margin-top: 10px;
+    color: #FF685B;
+    font-weight: 700; 
+}
+
+.header .btn-join-us p:hover{
+    color: blue;
+}
+.header .btn-join-us a{
+    background-color: #FF685B ;
+    line-height: 60px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.header .btn-join-us a:hover{
+    background-color: cornflowerblue;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* bottom header */
+
+.color-header-bottom{
+    display: flex;
+    align-self: center;
+}
+.header .header-bottom{
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+}
+
+.header-bottom .content-header{
+    display: flex;
+    flex-direction: row;
+}
+.content-header{
+    /* background-color: white; */
+    /* margin-bottom: 100px; */
+    margin-top: 100px;
+    width: auto;
+}
+.content-header .two-col{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: -90px;
+    padding-left: 150px;
+}
+
+/* h5 */
+.header-bottom .content-header h5{
+    color: #FF685B;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
+/* h1 */
+.header-bottom .content-header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #252B42;
+    font-style: normal;
+
+   
+}
+.header-bottom .content-header h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 20;
+    color: rgb(90, 90, 88);
+}
+
+/* btn */
+.btn-content-header{
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.quote-new{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+
+    background-color: #FF685B;
+    border: 1px solid #FF685B;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.btn-learn-more{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: 1px solid #FF685B;
+    color: #FF685B;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ------------------- -------------------*/
+.content-header .image-header {
+    width: 50%;
+    margin-left: -80px;
+    margin-top: -50px;
+}
+/* --------------------------------------------- */
+.introduces{
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-evenly;
+
+    margin-top: -120px;
+    margin-bottom: 80px;
+}
+.introduce{
+    width: 300px;
+    height: 250px;
+    display: flex;
+}
+
+.introduce .form1{
+    border: white;
+    background: white;
+    padding: 23px 30px;
+    width: 300px;
+    height: 255px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.introduce .form1 h5{
+    margin-top: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+
+.introduce .form1 p{
+    margin-top: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+
+/* ------------------------------------------------------ */
+/* css for stats */
+
+.stats{
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-self: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.stats-form{
+    /* Muốn cụm này phóng to không bị hỏng thì ko đc đặt flex */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+.stats .stats-form h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FF685B;
+}
+
+.name-stats{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+}
+
+/* --------------------------------------------- */
+/* meet-our */
+.meet-our{
+    display: flex;
+    justify-content: center;
+    margin-left: -120px;
+    white-space: nowrap;
+    /* background-color: red; */
+}
+
+.meet-left{
+    background-color:#FFFFFF;
+    margin-right: 200px;
+}
+
+.meet-left h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.meet-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 30px;
+}
+.meet-left a{
+    color: rgba(255, 104, 91, 1);
+}
+
+.meet-right{
+    background-color: rgba(255, 255, 255, 1);
+    height: 480px;
+}
+
+.img1{
+    position: relative;
+    top: -400px;
+    right: -50px;
+}
+
+.img2{
+    position: relative;
+    
+}
+.img3{
+    position: relative;
+    top: -780px;
+    right: 70px;
+}
+.img4{
+    position: relative;
+    top: -850px;
+    left: 270px;
+}
+
+.img5{
+    position: relative;
+    top: -760px;
+}
+.img6{
+    position: relative;
+    top:-890px;
+    right: 70px;
+}
+
+/* ..................... */
+/* css for advice */
+
+.practice-advice-one{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5F9F7;
+    /* padding-left: 50px; */
+    align-items: center;
+    
+}
+
+.advice-top-bottom{
+    margin-top: 70px;
+    width: 400px;
+    /* background-color: red; */
+}
+.advice-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+    left: -310px;
+    
+}
+.advice-top h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FF685B;
+}
+
+.advice-top h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.advice-top p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #737373;
+    position: relative;
+    top: 4px;
+    margin-bottom: 30px;
+}
+
+/* advice-bottom */
+.advice-bottom{
+    display: flex;
+    flex-direction: row;
+    /* width: auto; */
+    justify-self: center;
+    justify-content: center;
+}
+.advice-box{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    /* margin-right: 50px; */
+}
+.advice-box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.image-advice-box{
+  
+}
+.img-sale1{
+    position: relative;
+    top:60px;  
+    left: 15px;
+}
+.img-traitim{
+    width: 250px;
+    height: 260px;
+    
+}
+.icon-3{
+    position: relative;
+    top:-60px;
+    left: 80px; 
+    width: fit-content;
+    cursor: pointer;
+
+}
+/* advice-box-2 */
+
+.advice-box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: relative;
+    top: -30px;
+}
+.name-and-sao{
+    display: flex;
+    flex-direction: row;   
+}
+.name-and-sao .p-1 {
+    margin-right: 30px;
+    margin-left: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #FF685B;
+
+    width: fit-content;
+}
+.danh-gia{
+    display: flex;
+    flex-direction: row;
+    background-color: #252B42;
+    border-radius: 9px;
+    width: 50px;
+}
+.danh-gia img{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.danh-gia h3{
+    color: white;
+    font-weight: 50;
+}
+
+.advice-box-2 h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+.advice-box-2 p{
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+}
+.row-icon-sale{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+}
+.row-icon-sale img{
+    width: 20px;
+    height: 20px;
+    
+}
+.row-icon-sale p{
+    margin-left: 8px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid;
+    width: 113px;
+    height: 22px;
+}
+.price-1 p{
+    width: 50px;
+
+    color: #BDBDBD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    margin-right: 6px;
+}
+
+.price-2 p{
+    color: #5AACA8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+.advice-bottom .learn-more-button{
+    border: 1px solid;
+    border-color: #FF685B;
+    height: 40px;
+    width: 130px;
+    border-radius: 37px;
+    margin-top: 20px;
+}
+
+.advice-bottom .learn-more-button a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.20000000298023224px;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    color: #FF685B;
+    cursor: pointer;
+
+}
+/* ----------------------------------------------- */
+/*css practice-advice-two  */
+
+.practice-advice-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.practice-advice-two .practice-advice-two-top{
+    display: flex;
+    flex-direction: column;
+    /* vì trong thẻ top ni ko có div khác, chỉ có các thẻ con nhỏ nhỏ nên dùng align */
+    align-self: center;
+}
+.practice-advice-two .practice-advice-two-top h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FF685B;
+    margin-left: -520px;
+
+}
+.practice-advice-two .practice-advice-two-top h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #252B42;
+    margin-left: -520px;
+}
+
+.practice-advice-two .practice-advice-two-top p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #737373;
+    margin-left: -520px;
+}
+/* bottom */
+.practice-advice-two-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.three-form-advice{
+    width: 210px;
+    margin-right: 60px;
+}
+.three-form-advice .five-star{
+    display: flex;
+    flex-direction: row;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.information .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+
+    position: relative;
+    left: -50px;
+    margin-bottom: 30px;
+}
+
+.information img{
+    margin-right: 15px;
+}
+.information .info{
+    line-height: 20px;
+}
+
+.information .info h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FF685B;
+}
+/* -------------------------------------------------- */
+/* CSS for Team */
+.team{
+    display: flex;
+    flex-direction: column;
+}
+.team-top{
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+
+    position: relative;
+    left: -320px;
+
+}
+.team .team-top h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #FF685B;
+}
+.team .team-top h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    color: #252B42;
+}
+.team .team-top p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.team-bottom{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.team-bottom .form-each-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    position: relative;
+    left: 10px;
+
+}
+
+.avt-member{
+    border-radius: 30px;
+    width: 230px;
+    height: 270px;
+    margin-bottom: 20px;
+
+    box-shadow: 0px 10px 20px 19px #e7090912;
+}
+
+
+.name-member{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+}
+.position-member{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+.face-insta-tw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95px;
+    cursor: pointer;
+}
+/* ------------------------------------------- */
+/* CSS for Newsletter */
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 200px;
+}
+.newsletter .newsletter-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.newsletter-top h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FF685B;
+}
+.newsletter-top h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #252B42;
+}
+.newsletter-top p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #737373;
+    text-align: center;
+}
+
+.newsletter-bottom .email-subscribe .email{
+    width: 571px;
+    height: 58px;
+    border: 1px solid #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    background-color: #F9F9F9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-subcribe{
+    width: 117px;
+    height: 58px;
+    border: 0px solid #E5E5E5;
+    background: #FF685B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+/* ------------------------------------------ */
+/* css for footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+}
+.table-footer{
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.table-footer th{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #252B42;
+    
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+.table-footer td{
+    padding-bottom: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+
+    cursor: pointer;
+}
+
+.table-footer tr{
+    text-align: left;
+    
+}
+
+.coppy-right{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.coppy-right h6{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+}
+
+
+
+
+
+
+
+
