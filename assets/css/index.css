@@ -17,14 +17,12 @@ html{
 .container .header{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     background-color: rgba(250, 250, 250, 1);
 }
 
 /* top header */
 .header .header-top{
-    /* background-color: royalblue; */
-    background-color: #f3dbbb;
+    /* background-color: #f3dbbb; */
     height: 70px;
     line-height: 60px;
     
@@ -33,9 +31,7 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
     margin-left: -200px;
-    
 }
 
 .header .name-company{
@@ -47,8 +43,6 @@ html{
     font-style: normal;
     font-weight: 700;
     padding: 3px;
-    /* margin-left: 33px; */
-   
     /* css thêm */
    margin-left: 45px;
 }
