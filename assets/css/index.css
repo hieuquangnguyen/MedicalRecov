@@ -64,9 +64,8 @@ html{
 }
 .header .menu li a{
     text-align: center;
-    color:rgb(0, 0, 0);
+    color: #737373;
     font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.2px;
 }
